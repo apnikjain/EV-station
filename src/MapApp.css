@@ -1,0 +1,66 @@
+.app {
+  height: 93%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow-x: hidden !important;
+
+}
+.CircularProgress{
+  height: 100%;
+  margin-top: 15rem;
+  margin-left: 46%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.bg{
+  background: url('./assets/uuu.png');
+  height:93.7vh;
+}
+.map-grid {
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  grid: repeat(1, 1fr);
+  overflow-x: hidden !important;
+}
+
+
+.map-grid2 {
+  height: 97vh;
+  width: 100%;
+  display: grid;
+  grid: repeat(1, 1fr);
+  overflow-x: hidden !important;
+}
+
+.map {
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.controls {
+  box-sizing: border-box;
+  padding: 10px 20px 50px 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+label {
+  font-size: 23px;
+  color: white;
+  
+
+}
+select{
+  width:30%;
+  height:100%;
+  border-radius: 3px;
+}
+.actions{
+  margin-top: 20px;
+
+}
